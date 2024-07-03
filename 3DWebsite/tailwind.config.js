@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         'custom': ['Milestone Brush', 'sans-serif'],
+        'bebas': ['"Bebas Neue"', 'sans-serif'],
       },
     },
   },
