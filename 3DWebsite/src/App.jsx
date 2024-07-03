@@ -1,12 +1,9 @@
-import './App.css';
-import Navbar from './components/Navbar';
+import GamingNavbar from "./components/GamingNavbar"; 
 
-const App = () => {
+export default function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <GamingNavbar />
     </div>
   );
-};
-
-export default App;
+}
