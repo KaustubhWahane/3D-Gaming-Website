@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 function GamingNavbar() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
-      <Navbar.Brand href="#home">3D Gaming Website</Navbar.Brand>
+      <Navbar.Brand href="#home" className="font-custom">3D Gaming Website</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
