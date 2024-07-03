@@ -10,6 +10,11 @@ export default {
         'custom': ['Milestone Brush', 'sans-serif'],
         'bebas': ['"Bebas Neue"', 'sans-serif'],
       },
+      colors: {
+        violet: '#8A2BE2',
+        electricBlue: '#00e0ff',
+        black: '#000000',
+      },
     },
   },
   plugins: [],

@@ -1,10 +1,14 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import ThreeCube from './ThreeCube'; 
 
 function GamingNavbar() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
-      <Navbar.Brand className="font-custom p-2"> 3D Gaming Website</Navbar.Brand>
+    <Navbar className="bg-gradient-to-r from-violet via-electricBlue to-black" variant="dark" expand="lg" fixed="top">
+      <Navbar.Brand className="font-custom p-2 relative">
+        3D Gaming Website  
+        <ThreeCube />
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
