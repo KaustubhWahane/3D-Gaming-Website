@@ -5,10 +5,10 @@ import ThreeCube from './ThreeCube';
 function GamingNavbar() {
   return (
     <Navbar className="bg-gradient-to-r from-violet via-electricBlue to-black" variant="dark" expand="lg" fixed="top">
-      <Navbar.Brand className="font-custom p-2">
-        3D Gaming Website  
-      </Navbar.Brand>
-      <ThreeCube />
+      <Navbar.Brand className="font-custom d-flex align-items-center">
+  <span>3D Gaming Website</span>
+  <ThreeCube />
+</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">

@@ -7,6 +7,7 @@ const ThreeCube = () => {
     const camera = new THREE.PerspectiveCamera(75, 1, 0.5, 10); 
     const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(100, 100); 
+    renderer.setClearColor(0x000000, 0);
     document.getElementById('three-container').appendChild(renderer.domElement);
 
     // Cube
