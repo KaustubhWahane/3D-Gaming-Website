@@ -11,9 +11,9 @@ export default {
         'bebas': ['"Bebas Neue"', 'sans-serif'],
       },
       colors: {
-        violet: '#8A2BE2',
-        electricBlue: '#00e0ff',
-        black: '#000000',
+        oldGold: '#cfb53b',       
+        saddleBrown: '#8b4513',   
+        deepRed: '#8b0000'   
       },
     },
   },
