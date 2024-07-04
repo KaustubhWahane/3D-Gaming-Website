@@ -38,7 +38,7 @@ const ThreeCube = () => {
   }, []);
 
   return (
-    <div id="three-container" className="w-20 h-20 flex items-center justify-center absolute right-0"></div>
+    <div id="three-container" className="w-20"></div>
   );
 };
 

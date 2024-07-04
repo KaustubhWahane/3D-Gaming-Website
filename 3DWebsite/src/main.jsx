@@ -5,7 +5,6 @@ import './index.css';
 import { createRoot } from 'react-dom/client';
 
 
-// Use createRoot to render the application
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
